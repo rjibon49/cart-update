@@ -24,9 +24,9 @@
                     <div >
                         <p class="mt-4 fw-bold">Memory</p>
                         
-                        <button id="8gb-memory-button" class="btn btn-secondary">8GB unified memory</button>
+                        <button id="8gb-memory-button" class="btn btn-secondary" value="0">8GB unified memory</button>
                         <input id="memory-input" type="hidden" class="form-control text-center" value="0">
-                        <button id="16gb-memory-button" class="btn btn-secondary" >16GB unified memory</button>
+                        <button id="16gb-memory-button" class="btn btn-secondary" value="180">16GB unified memory</button>
 
                         <p class="mt-4 fw-bold">storage</p>
                         
@@ -57,20 +57,35 @@
                               <h5>Total Price:</h5>
                            </div>
       
-                           <div class="col-md-4 status">
+                           <div class="col-md-4 status mt-4">
                               <h5>$<span id="Best-Price">1299</span></h5>
                               <h5>$<span id="memory-cost">0</span></h5>
                               <h5>$<span id="storage-cost">0</span></h5>
                               <h5>$<span id="delivery-cost">0</span></h5>
                               <h5>$<span id="total-price">1299</span></h5>
                            </div>
+                           <div class="col-md-5" >
+                               <p> Add Promo Code</p>
+                               <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Promo" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Apply</button>
+                              </div>
+                           </div>
                         </div>
                      </div>
+
+                     <div>
+                        <h1 class="mx-auto">
+                            Total: $ <span id="total">1299</span>
+                        </h1>
+                    </div>
+                    
                 </div>
             </div>   
         </div>
     </main>
     
     <script src="js/cart.js"></script>
+    <!-- <script src="js/new.js"></script> -->
 </body>
 </html>

@@ -28,14 +28,15 @@ document.getElementById('256gb-ssd-button').addEventListener('click', function()
     const storageInput = document.getElementById('ssd-input');
     const storageNumber = storageInput.value;
     storageInput.value = parseInt(storageNumber);
-
 })
+
 document.getElementById('512gb-ssd-button').addEventListener('click', function(){
     // updateProductSelect()
     const storageInput = document.getElementById('ssd-input');
     const storageNumber = storageInput.value;
     storageInput.value = parseInt(storageNumber) + 100;
 })
+
 document.getElementById('1tb-ssd-button').addEventListener('click', function(){
     // updateProductSelect();
     const storageInput = document.getElementById('ssd-input');
@@ -83,7 +84,19 @@ function calculateTotal() {
 
 
 
-
+// function updateBalance(isAdd) {
+//     const balanceTotal = document.getElementById('memory-cost');
+//     /*
+//      const balanceTotalText = balanceTotal.innerText;
+//     const previousBalanceTotal = parseFloat(balanceTotalText); */
+//     const previousBalanceTotal = updateProductSelect();
+//     if (isAdd == true) {
+//         balanceTotal.innerText = previousBalanceTotal + amount;
+//     }
+//     else {
+//         balanceTotal.innerText = previousBalanceTotal - amount;
+//     }
+// }
 
 
 
