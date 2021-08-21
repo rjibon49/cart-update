@@ -52,6 +52,13 @@ document.getElementById('delivery-free-button').addEventListener('click',functio
     console.log(deliveryInput.value);
 })
 
+document.getElementById('delivery-charge-button').addEventListener('click',function () {
+    const deliveryInput = document.getElementById('delivery-input');
+    const deliveryNumber = deliveryInput.value;
+    deliveryInput.value = parseInt(deliveryNumber) + 20;
+    console.log(deliveryInput.value);
+})
+
 
 
 // if (memorySelect == true, memoryNumber<1) {
