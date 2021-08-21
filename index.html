@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Mac-Book-Pro</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <img class="img-thumbnail" src="images/mac.png" alt="">
+                </div>
+                <div class="col-7">
+                    <h2>
+                        Customize your Blue 24-inch iMac with Apple M1 chip
+                    </h2>
+                    <p>
+                        Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Enginer 8GB unified memory 256GB SSD storage Two Thunderbolt/ USB 4 ports MAgic Mouse Magic Keyboard-US English.
+                    </p>
+                    <div >
+                        <p class="mt-4 fw-bold">Memory</p>
+                        
+                        <button id="8gb-memory-button" class="btn btn-secondary">8GB unified memory</button>
+                        <input id="memory-input" type="hidden" class="form-control text-center" value="0">
+                        <button id="16gb-memory-button" class="btn btn-secondary">16GB unified memory</button>
+
+                        <p class="mt-4 fw-bold">storage</p>
+                        
+                        <input id="ssd-input" type="hidden" class="form-control text-center" value="0">
+                        <button id="256gb-ssd-button" class="btn btn-secondary">256GB SSD Storage</button>
+
+                        <!-- <input id="512GB-ssd-input" type="hidden" class="form-control text-center" value="100"> -->
+                        <button id="512gb-ssd-button" class="btn btn-secondary">512GB SSD Storage</button>
+
+                        <!-- <input id="1TB-ssd-input" type="hidden" class="form-control text-center" value="180"> -->
+                        <button id="1tb-ssd-button" class="btn btn-secondary">1TB SSD Storage</button>
+
+                        <p class="mt-4 fw-bold">Choose Your Delivery Option</p>
+                        
+                        <input id="delivery-input" type="hidden" class="form-control text-center" value="0">
+                        <button id="delivery-free-button" class="btn btn-secondary">Friday, Aug 25 Free Delivery</button>
+
+                        <!-- <input id="delivery-charge-input" type="hidden" class="form-control text-center" value="20"> -->
+                        <button id="delivery-charge-button" class="btn btn-secondary">Friday, Aug 21 Delivery charge $20</button>
+                    </div>
+                    <div class="cart-item my-5">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <h5>Best Price: </h5>
+                              <h5>Extra Memory Cost:</h5>
+                              <h5>Extra Storage Cost:</h5>
+                              <h5>Delivery Charge:</h5>
+                              <h5>Total Price:</h5>
+                           </div>
+      
+                           <div class="col-md-4 status">
+                              <h5>$<span id="Best-Price">1299</span></h5>
+                              <h5>$<span id="memory-cost">0</span></h5>
+                              <h5>$<span id="storage-cost">0</span></h5>
+                              <h5>$<span id="delivery-cost">0</span></h5>
+                              <h5>$<span id="total-price">1299</span></h5>
+                           </div>
+                        </div>
+                     </div>
+                </div>
+            </div>   
+        </div>
+    </main>
+    
+    <script src="js/cart.js"></script>
+</body>
+</html>
